@@ -2,10 +2,8 @@ buildscript {
     repositories {
         
         google()
-        //maven {
-        //    url "https://maven.google.com"
-       // }
-       // jcenter()
+        jcenter()
+      
     }
     dependencies {
         //classpath 'com.android.tools.build:gradle:2.3.+'
@@ -16,9 +14,8 @@ buildscript {
     }
 }
 repositories {
-    //mavenCentral()
-    //jcenter()
-    google()  
+    google()
+    jcenter()
 }
 dependencies {
    // Add the Firebase SDK for Google Analytics
@@ -26,7 +23,8 @@ dependencies {
 
   // Add the SDKs for any other Firebase products you want to use in your app
   // For example, to use Firebase Authentication and Cloud Firestore
-  //implementation 'com.google.firebase:firebase-auth:19.1.0'
+  
+  implementation 'com.google.firebase:firebase-auth:19.1.0'
   //implementation 'com.google.firebase:firebase-firestore:21.1.1'
   
   implementation 'com.google.firebase:firebase-messaging:17.5.0'
