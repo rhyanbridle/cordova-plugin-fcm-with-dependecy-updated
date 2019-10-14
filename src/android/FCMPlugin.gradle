@@ -7,8 +7,9 @@ buildscript {
     dependencies {
         //classpath 'com.android.tools.build:gradle:2.3.+'
         //classpath 'com.google.gms:google-services:3.1.+'
-        classpath 'com.android.tools.build:gradle:3.1.2'
-        classpath 'com.google.gms:google-services:4.2.0'
+        
+        classpath 'com.android.tools.build:gradle:+'
+        classpath 'com.google.gms:google-services:4.3.1'
     }
 }
 repositories {
@@ -19,8 +20,7 @@ dependencies {
     //implementation 'com.google.firebase:firebase-core:11.+'
     
     
-  implementation 'com.google.firebase:firebase-auth:11.6.0'
-  implementation 'com.google.firebase:firebase-database:11.6.0'
+  implementation 'com.google.firebase:firebase-database:19.0.0'
 }
 // apply plugin: 'com.google.gms.google-services'
 // class must be used instead of id(string) to be able to apply plugin from non-root gradle file
